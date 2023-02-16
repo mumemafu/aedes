@@ -10,6 +10,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items:  center;
+
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
     justify-content: center;
     display: flex;
     width: 80%;
-    height: 300px;
+    height: auto;
     border: 1px solid #eaf0e8;
     border-radius: 10px;
 }
@@ -57,16 +58,89 @@ h1 {
 .box-info {
           
           display: flex;
+          flex-direction: column;
           width: 98%;
           height: 90%;
           border: 1px solid #6dc04b;
           border-radius: 10px;
+          align-items: center;
+}
+
+.box-avatar { 
+    
+
+    display: flex;
+    border: 1px solid yellow;
+    width: 95%;
+    height: auto;   
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+h3 {
+    color: #6dc04b;
+}
+
+.avatar {
+    
+       margin: 5px 10px;
+       border: 1px solid red;
+       border-radius: 2px;
+       width: 150px;
+       height: 150px;
+        
+}
+
+.text-avatar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 85%;
+    height: 150px;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.info-id{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border: 1px solid orangered;
+    
+}
+
+.info-id h3 {
+    color: #6dc04b;   
+    margin: 0;
+    padding: 10px;
+}
+
+.info-id p {
+    color: white;   
+    margin: 0;
 }
 
 .box-info p { 
     color: #6dc04b;
     font-family: 'DotGothic16', sans-serif;
-    font-size: 21px;
+    
     justify-content: right;
+
+}
+
+.txt-bio { 
+    
+
+    display: flex;
+    border: 1px solid yellow;
+    width: 95%;
+    height: auto;   
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
 
 }
