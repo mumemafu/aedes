@@ -11,7 +11,8 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items:  center;
-
+    height: auto;
+    /* border: 1px solid blue; */
 }
 
 h1 {
@@ -20,11 +21,19 @@ h1 {
     font-size: 4rem;
 }
 
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
 .menu {
     display: flex;
-    width: 90%;
+    width: 80%;
     height: 50px;
-    border: 1px solid red;
+    margin-top: 20px;
+    border: 1px solid #6dc04b;
+    box-shadow: 0 0 5px #6dc04b;
     justify-content: space-around;
     align-items: center;
 
@@ -32,6 +41,7 @@ h1 {
 }
 
 .menu a {
+    text-decoration: none;
     color: #6dc04b;
     font-family: 'DotGothic16', sans-serif;
     font-size: 32px;
@@ -52,19 +62,30 @@ h1 {
     display: flex;
     width: 80%;
     height: auto;
-    border: 1px solid #eaf0e8;
+    border: 1px solid #6dc04b;
     border-radius: 10px;
+    box-shadow: 0 0 5px #6dc04b;
+    padding: 16px;
 }
+
+/* .pin {
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+} */
+
 
 .box-info {
           
-          display: flex;
-          flex-direction: column;
-          width: 98%;
-          height: 90%;
-          border: 1px solid #6dc04b;
-          border-radius: 10px;
-          align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 90%;
+    border: 1px solid #6dc04b;
+    border-radius: 10px;
+    align-items: center;      
 }
 
 .box-avatar { 
@@ -142,5 +163,22 @@ h1 {
 
 }
 .txt-bio p {
+    color: #6dc04b;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 30px;
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 5px;
+    
+    
+}
+
+footer p {
     color: #6dc04b;
 }
